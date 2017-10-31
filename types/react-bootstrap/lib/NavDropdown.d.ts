@@ -6,6 +6,7 @@ declare namespace NavDropdown {
         active?: boolean;
         noCaret?: boolean;
         eventKey?: any;
+        title?: JSX.Element | string;
     }
 
     export type NavDropdownProps = NavDropdownBaseProps & React.HTMLProps<NavDropdown>;
